@@ -10,6 +10,8 @@
     display: flex;
 }
 
+/* SITE SECTIONS */
+
 header{
     width: 100%;
     height: 4rem;
@@ -19,10 +21,32 @@ header{
     text-transform: uppercase;
 }
 
+
+/* La width 60% la assegno al desktop size */
 nav{
-    width: 60%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
+    padding: 0 2rem;
     justify-content: space-between;
     align-items: center;
+}
+
+section.demo{
+    padding: 2rem;
+}
+
+/* Togliere le altezze fisse alla fine */
+.cards{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    background-color: #b5ddff;
 }
