@@ -39,7 +39,8 @@ nav{
 
 /* Main parts */
 section.demo,
-section.testimonials{
+section.testimonials,
+section.informations{
     padding: 2.5rem;
 }
 
@@ -92,13 +93,21 @@ section.benefits{
     background-color: white;
 }
 
+.informations .card{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
+
 /* RESPONSIVE */
 
 /* Tablet version */
 @media screen and (min-width: 768px) {
     
     .demo .cards,
-    .benefits .cards{
+    .benefits .cards,
+    .informations .cards{
         flex-direction: row;
     }
 
@@ -115,6 +124,14 @@ section.benefits{
         width: calc(100% / 2 - 2rem);
         margin: 1rem;
     }
+
+    .informations .info-text{
+        width: 70%;
+    }
+
+    .informations .info-profile{
+        width: 30%;
+    }
 }
 
 /* Desktop version */
@@ -123,7 +140,8 @@ section.benefits{
     nav,
     .demo .container,
     .testimonials .container,
-    .benefits .container{
+    .benefits .container,
+    .informations .container{
         width: 900px;
         margin: 0 auto;
     }
