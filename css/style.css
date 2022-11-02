@@ -6,6 +6,7 @@
 
 /* UTILITIES */
 
+/* Dare una min-width */
 body{
     font-family:'PT Sans', sans-serif;
 }
@@ -157,12 +158,12 @@ section.down-footer{
     }
 
     .demo .card{
-        width: calc(100% / 3 - 2rem);
-        margin: 1rem;
+        width: calc(100% / 3 - 1rem);
+        margin: 0.5rem;
     }
 
     .demo .card-download{
-        width: calc((100% / 3) * 2 - 2rem);
+        width: calc((100% / 3) * 2 - 1rem);
     }
 
     .demo-image img{
@@ -198,8 +199,12 @@ section.down-footer{
     .testimonials .container,
     .benefits .container,
     .informations .container{
-        width: 1250px;
+        width: 940px;
         margin: 0 auto;
+    }
+
+    .demo .card{
+        height: 300px;
     }
 
     .demo .card-download{
@@ -219,16 +224,16 @@ section.down-footer{
     }
 
     .demo-image img{
-        height: 80%;
-        width: 90%;
+        height: 250px;
+        width: 230px;
         display: block;
         position: absolute;
         bottom: 0;
-        left: 0;
+        left: 2rem;
     }
 
     .plan .container{
-        width: 900px;
+        width: 800px;
         margin: 0 auto;
     }
 
