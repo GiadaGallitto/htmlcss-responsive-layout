@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-accent-color: #0086ff;
+    --main-bg-color: #b5ddff;
+    --secondary-accent-color: #9792e4;
+    --secondary-bg-color: #9792e4;
+}
+
 /* UTILITIES */
 
 /* Dare una min-width */
@@ -35,7 +42,7 @@ li{
 /* Header parts */
 header{
     width: 100%;
-    background-color: #0086ff;
+    background-color: var(--main-accent-color);
     color: white;
     font-size: 1.2rem;
     padding: 1rem 0;
@@ -83,7 +90,7 @@ section.informations{
 section.plan,
 section.benefits,
 section.up-footer{
-    background-color: #9792e4;
+    background-color: var(--secondary-bg-color);
     padding: 2.5rem;
 }
 
@@ -97,17 +104,43 @@ section.down-footer{
 /* Demo part */
 .demo .card{
     width: 100%;
-    height: 550px;
+    /* height: 550px; */
     margin-bottom: 2rem;
     border: 1px solid black;
-    background-color: #b5ddff;
+    background-color: var(--main-bg-color);
+}
+
+.demo h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--main-accent-color);
+}
+
+.demo p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #62788b;
+}
+
+.demo h4{
+    display: inline-block;
+}
+
+.demo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    background-color: var(--main-accent-color);
+    padding: 0.5rem 3.5rem;
+    border: none;
+    border-radius: 20px;
 }
 
 .demo-text{
     width: 100%;
     height: 45%;
     border: 1px solid black;
-    padding: 2rem;
+    padding: 1.3rem 2.5rem;
 }
 
 .demo-image{
@@ -117,7 +150,8 @@ section.down-footer{
 }
 
 .demo-image img{
-    height: 100%;
+    height: 300px;
+    width: 265px;
     display: block;
     margin: 0 auto;
 }
