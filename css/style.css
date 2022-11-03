@@ -38,6 +38,10 @@ li{
     padding: 0 0.8rem;
 }
 
+p{
+    line-height: 1.8rem;
+}
+
 /* SITE SECTIONS */
 
 /* Header parts */
@@ -171,11 +175,55 @@ section.down-footer{
 /* Plans part */
 .plan .card{
     width: 100%;
-    height: 500px;
     margin-bottom: 2.5rem;
-    border: 1px solid black;
 }
 
+.card-planning h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.card-planning figure{
+    width: 100%;
+    margin-bottom: 4.5rem;
+}
+
+figure img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-planning figcaption{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 1rem;
+}
+
+.card-develop{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card-develop figure{
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.card-develop figcaption{
+    width: 100%;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+figcaption i{
+    font-size: 1.15rem;
+    background-color: var(--secondary-bg-color);
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
 
 /* Testimonials part */
 .testimonials .card{
@@ -258,6 +306,24 @@ section.down-footer{
         width: 50%;
     }
 
+    .plan h3{
+        font-size: 2.3rem;
+    }
+
+    .card-planning figcaption{
+        padding: 0;
+    }
+
+    .card-develop figure{
+        width: 70%;
+        margin: 0 auto 2.5rem;
+    }
+
+    .card-develop figcaption{
+        width: 70%;
+        margin: 0 auto;
+    }
+
     .benefits .card{
         width: calc(100% / 2 - 2rem);
         margin: 1rem;
@@ -329,11 +395,26 @@ section.down-footer{
 
     .plan .cards{
         flex-direction: row;
+        align-items: flex-end;
     }
 
     .plan .card{
         width: calc(100% / 2 - 3rem);
         margin: 1rem 1.5rem;
+    }
+
+    .card-develop{
+        height: 515px;
+        padding-bottom: 2rem;
+    }
+
+    .card-develop h3{
+        font-size: 1.5rem;
+    }
+
+    .card-develop figcaption{
+        padding: 0;
+        width: 90%;
     }
 
     .benefits .card{
