@@ -107,14 +107,13 @@ section.down-footer{
     width: 100%;
     /* height: 550px; */
     margin-bottom: 2rem;
-    border: 1px solid black;
+    border-radius: 15px;
     background-color: var(--main-bg-color);
 }
 
 .demo-text{
     width: 100%;
     height: 45%;
-    border: 1px solid black;
     padding: 1rem 2.5rem;
 }
 
@@ -151,14 +150,12 @@ section.down-footer{
 .demo-image{
     width: 100%;
     height: 55%;
-    border: 1px solid black;
 }
 
 .demo-image img{
-    height: 300px;
-    width: 265px;
     display: block;
     margin: 0 auto;
+    width: 80%;
 }
 
 .demo .icon-card{
@@ -252,12 +249,13 @@ section.down-footer{
 
     .demo .card-download{
         width: calc((100% / 3) * 2 - 1rem);
+        overflow: hidden;
     }
 
     .demo-image img{
-        height: 100%;
         display: block;
-        margin-left: 0;
+        margin: 0;
+        width: 50%;
     }
 
     .benefits .card{
@@ -299,31 +297,29 @@ section.down-footer{
         display: block;
     }
 
-    .demo .card{
-        height: 300px;
-    }
-
     .demo .card-download{
         flex-direction: row;
         flex-wrap: nowrap;
     }
 
     .card-download .demo-text{
-        width: 45%;
+        width: 60%;
         height: 100%;
     }
 
     .demo a{
-        width: 100%;
+        width: 70%;
     }
 
     .card-download .demo-image{
-        width: 55%;
+        width: 40%;
         height: 100%;
     }
 
     .demo-image img{
         display: block;
+        width: 90%;
+        margin-top: 4rem;
     }
 
     .plan .container{
