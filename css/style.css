@@ -109,7 +109,6 @@ section.down-footer{
 /* Demo part */
 .demo .card{
     width: 100%;
-    /* height: 550px; */
     margin-bottom: 2rem;
     border-radius: 15px;
     background-color: var(--main-bg-color);
@@ -282,17 +281,51 @@ section.down-footer{
 /* Benefits part */
 .benefits .title{
     width: 100%;
-    height: 100px;
-    margin-bottom: 1rem;
-    border: 1px solid black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    padding: 2.5rem 0;
 }
 
 .benefits .card{
     width: 100%;
-    height: 300px;
+    padding: 2.1rem;
     margin-bottom: 2rem;
-    border: 1px solid black;
     background-color: white;
+    border-radius: 20px;
+}
+
+.benefits h2{
+    font-size: 3rem;
+    color: var(--secondary-accent-color);
+    margin-bottom: 1.1rem;
+}
+
+.benefits h3{
+    font-size: 1.5rem;
+    color: var(--secondary-accent-color);
+    margin-bottom: 1rem;
+}
+
+.benefits p{
+    font-size: 1.1rem;
+    color: #818181;
+    margin-bottom: 1.2rem;
+}
+
+.benefits a{
+    width: 40%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--secondary-bg-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 0;
 }
 
 /* Informations part */
