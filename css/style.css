@@ -90,6 +90,7 @@ section.down-footer{
     margin: 0 auto;
 }
 
+/* Plans part */
 .plan .card{
     width: 100%;
     height: 500px;
@@ -97,6 +98,8 @@ section.down-footer{
     border: 1px solid black;
 }
 
+
+/* Testimonials part */
 .testimonials .card{
     width: 100%;
     height: 350px;
@@ -108,6 +111,8 @@ section.down-footer{
     background-color: #9792e4;
 }
 
+
+/* Benefits part */
 .benefits .title{
     width: 100%;
     height: 100px;
@@ -123,6 +128,7 @@ section.down-footer{
     background-color: white;
 }
 
+/* Informations part */
 .informations .card{
     width: 100%;
     height: 500px;
@@ -138,6 +144,7 @@ section.down-footer{
     margin: 0 auto;
 }
 
+/* Footer parts */
 .info-footer{
     width: 100%;
     height: 300px;
