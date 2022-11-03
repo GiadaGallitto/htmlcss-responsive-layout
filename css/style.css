@@ -365,6 +365,25 @@ section.down-footer{
         margin: 0 auto;
     }
 
+    .card-testimony::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .card-testimony figure{
+        float: left;
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .card-testimony figcaption{
+        width: 65%;
+        float: left;
+        padding: 2rem;
+        text-align: left;
+    }
+
     .benefits .card{
         width: calc(100% / 2 - 2rem);
         margin: 1rem;
@@ -456,6 +475,10 @@ section.down-footer{
     .card-develop figcaption{
         padding: 0;
         width: 90%;
+    }
+
+    .card-testimony figcaption{
+        width: 75%;
     }
 
     .benefits .card{
